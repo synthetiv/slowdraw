@@ -9,7 +9,7 @@ function init()
 end
 
 function redraw()
-	screen.clear(j)
+	screen.clear()
 	for x = 1, 45 do
 		for y = 1, 24 do
 			screen.rect(x * 3, y * 3 - 1, 1, 1)
